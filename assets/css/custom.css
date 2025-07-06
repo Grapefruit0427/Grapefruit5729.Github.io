@@ -1,0 +1,13 @@
+/* 覆盖所有正文内容（段落、列表、引用等） */
+.markdown-content {
+  font-size: 14px; 
+  line-height: 1.6;
+}
+
+/* 若标题太大，可单独调整（可选） */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  font-size: 16px; /* h1 */
+  /* 按需调整 h2、h3... */
+}
