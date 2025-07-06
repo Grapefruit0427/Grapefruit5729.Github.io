@@ -26,11 +26,11 @@ jobs:
 
       - name: Build
         run: |
-          rm -rf public  # 只清理public目录
+          rm -rf public
           hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./public  # 🔥 关键行：必须指向 Hugo 生成的目录
