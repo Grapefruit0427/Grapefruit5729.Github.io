@@ -1,10 +1,11 @@
-baseURL: 'https://Grapefruit0427.github.io/Grapefruit-5729'  # 必须与仓库名一致
-publishDir: 'docs'  
+baseURL: "https://Grapefruit5729.github.io/"
+publishDir: "public"
 title: 柚子的杂货铺
 theme: ["PaperMod"]
 
 params:
   homeInfoParams:
+  env: production
     Title: 「“第25小时收容所”」
     Content: 某倒班人的光影仓库📷/主业流程操作员🖥️副业生活缝隙勘探员 /🎬记录交接班路上的蒲公英战争、防爆手机里的日落走私案/所有被钢铁包裹的温柔瞬间/🎞️你的第25小时收容所/ 📻“已通过HAZOP浪漫风险评估❤️”
   ShowBreadCrumbs: true
