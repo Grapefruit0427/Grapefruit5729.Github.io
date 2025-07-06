@@ -1,34 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>LIFE | 生活相册 on 柚子的杂货铺</title>
-    <link>http://localhost:1313/plog/</link>
-    <description>Recent content in LIFE | 生活相册 on 柚子的杂货铺</description>
-    <generator>Hugo -- 0.147.9</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/plog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>25-07-05|下班点儿的一场雨</title>
-      <link>http://localhost:1313/plog/plog-test-3/</link>
-      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/plog/plog-test-3/</guid>
-      <description>&lt;p&gt;“你们在向海大道那里堵了几个红绿灯？？？？”&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;image1.jpg&#34;
-         alt=&#34;测试&#34;/&gt; 
-&lt;/figure&gt;</description>
-    </item>
-    <item>
-      <title>测试图片</title>
-      <link>http://localhost:1313/plog/plog-test-2/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/plog/plog-test-2/</guid>
-      <description>&lt;p&gt;这是一张测试图片：&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;aaa.jpg&#34;
-         alt=&#34;测试&#34;/&gt; 
-&lt;/figure&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>LIFE | 生活相册 on 柚子的杂货铺</title><link>https://Grapefruit0427.github.io/plog/</link><description>Recent content in LIFE | 生活相册 on 柚子的杂货铺</description><generator>Hugo -- 0.147.9</generator><language>en</language><lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Grapefruit0427.github.io/plog/index.xml" rel="self" type="application/rss+xml"/><item><title>25-07-05|下班点儿的一场雨</title><link>https://Grapefruit0427.github.io/plog/plog-test-3/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://Grapefruit0427.github.io/plog/plog-test-3/</guid><description>&lt;p>“你们在向海大道那里堵了几个红绿灯？？？？”&lt;/p>
+&lt;figure>
+&lt;img loading="lazy" src="image1.jpg"
+alt="测试"/>
+&lt;/figure></description></item><item><title>测试图片</title><link>https://Grapefruit0427.github.io/plog/plog-test-2/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://Grapefruit0427.github.io/plog/plog-test-2/</guid><description>&lt;p>这是一张测试图片：&lt;/p>
+&lt;figure>
+&lt;img loading="lazy" src="aaa.jpg"
+alt="测试"/>
+&lt;/figure></description></item></channel></rss>
