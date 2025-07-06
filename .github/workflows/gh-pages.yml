@@ -2,7 +2,8 @@ name: GitHub Pages
 
 permissions:
   contents: write
-  pull-requests: write
+  pages: write
+  id-token: write
 
 on:
   push:
@@ -14,13 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: recursive  # 修复子模块问题
+          submodules: recursive
           fetch-depth: 0
-
-      - name: Clean
-        run: |
-          git clean -ffdx
-          rm -rf public
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -29,7 +25,9 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          rm -rf public  # 只清理public目录
+          hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
